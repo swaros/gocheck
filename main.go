@@ -2,7 +2,7 @@ package main
 
 import (
 	// Import the gorilla/mux library we just installed
-	"fmt"
+
 	"net/http"
 
 	"github.com/gorilla/mux"
@@ -19,8 +19,4 @@ func main() {
 	// We can then pass our router (after declaring all our routes) to this method
 	// (where previously, we were leaving the secodn argument as nil)
 	http.ListenAndServe(":8080", r)
-}
-
-func handler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Hello World!")
 }
