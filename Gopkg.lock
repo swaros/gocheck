@@ -2,14 +2,20 @@
 
 
 [[projects]]
-  branch = "master"
-  name = "github.com/dustin/go-humanize"
+  name = "github.com/gorilla/context"
   packages = ["."]
-  revision = "02af3965c54e8cacf948b97fef38925c4120652c"
+  revision = "08b5f424b9271eedf6f9f0ce86cb9396ed337a42"
+  version = "v1.1.1"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/gorilla/mux"
+  packages = ["."]
+  revision = "cb4698366aa625048f3b815af6a0dea8aef9280a"
 
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "a5d65a2bdf47e41b99ad71813142ae93970f5806c77630b2aea665fe631dde23"
+  inputs-digest = "8438493e769db94e4d7ba35b8a1b052164d0841998cdb62f546134d9759fdc17"
   solver-name = "gps-cdcl"
   solver-version = 1
